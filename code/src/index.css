@@ -50,7 +50,12 @@ h1 span {
   justify-content: center;
   align-items: center;
   width: 100%;
-  background: #f7c1c1;
+  background-image: linear-gradient(
+    0deg,
+    #ffadad 0%,
+    #f7c1c1 46%,
+    #83beec 100%
+  );
 }
 
 /**** FORM ****/
