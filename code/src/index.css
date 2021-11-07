@@ -50,12 +50,9 @@ h1 span {
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-image: linear-gradient(
-    0deg,
-    #ffadad 0%,
-    #f7c1c1 46%,
-    #83beec 100%
-  );
+  background-image: url(background-image.jpg);
+  object-fit: cover;
+  background-repeat: no-repeat;
 }
 
 /**** FORM ****/
@@ -146,7 +143,7 @@ h1 span {
   height: 45px;
   padding: 12px;
   border-radius: 100%;
-  margin-right: 8px;
+  margin-right: 14px;
   transform: translateX(5px);
   border: none;
   outline: none;
@@ -161,6 +158,10 @@ h1 span {
 .heart-button-liked:hover {
   transform: scale(1.1);
   transition: 0.3s;
+}
+
+.heart-emoji {
+  transform: translateX(5px);
 }
 
 .date {
