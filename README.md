@@ -4,6 +4,4 @@ I started out by thinking about the content, trying to figure out how many compo
 
 Technologies: CSS, JSX, React, API.
 
-If I had more time I might have added some more features.
-
 View it live: https://happy-thoughts-carolinef.netlify.app/
